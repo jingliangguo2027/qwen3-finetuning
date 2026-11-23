@@ -1,0 +1,6 @@
+task = "banking77"
+method = "qlora"
+
+[smoke]
+max_length = 1024
+max_new_tokens = 24

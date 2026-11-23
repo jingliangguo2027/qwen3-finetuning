@@ -1,0 +1,20 @@
+{
+  "train": 8999,
+  "validation": 1000,
+  "seed": 42,
+  "sklearn": "1.9.1",
+  "tfidf_ngrams": [
+    1,
+    2
+  ],
+  "logistic_C": 1,
+  "majority_label": "card_payment_fee_charged",
+  "majority": {
+    "accuracy": 0.019,
+    "macro_f1": 0.0004843047041280604
+  },
+  "tfidf_logistic": {
+    "accuracy": 0.864,
+    "macro_f1": 0.8546927540033804
+  }
+}

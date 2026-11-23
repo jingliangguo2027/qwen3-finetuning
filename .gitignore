@@ -1,0 +1,12 @@
+.venv/
+.venv-mlx/
+__pycache__/
+outputs/
+models/
+data/longmemeval_oracle.json*
+
+.DS_Store
+.env
+.env.*
+*.safetensors
+*.log

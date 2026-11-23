@@ -1,0 +1,1 @@
+{"target": "attention-mlp", "targets": ["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj", "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"], "rank": 4, "epochs": 2, "schedule": "warmup-linear", "lr": 0.0002, "task": "banking77", "method": "lora", "samples": 8999, "seed": 42, "name": "lora-attention-mlp-r4-e2-warmup-linear-s42"}

@@ -1,0 +1,23 @@
+task = "banking77"
+method = "lora"
+
+[lora]
+r = 8
+lora_alpha = 16
+target_modules = ["q_proj", "v_proj"]
+
+[training]
+learning_rate = 0.0002
+max_length = 1024
+seed = 42
+
+[pilot]
+max_steps = 32
+gradient_accumulation_steps = 4
+
+[full]
+gradient_accumulation_steps = 4
+
+[smoke]
+max_length = 1024
+max_new_tokens = 24

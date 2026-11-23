@@ -1,0 +1,6 @@
+task = "longmemeval"
+method = "qlora"
+
+[smoke]
+max_length = 4096
+max_new_tokens = 32
